@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "rootDir": ".", 
+    "outDir": "./dist", 
+    "target": "ES2020", 
+    "module": "NodeNext",  // Change to "commonjs" if not using ES modules
+    "moduleResolution": "NodeNext",  // Change to "node" if using CommonJS
+    "lib": ["ES2020"], 
+    "types": ["node", "express"], 
+    "strict": true, 
+    "esModuleInterop": true, 
+    "allowSyntheticDefaultImports": true, 
+    "forceConsistentCasingInFileNames": true, 
+    "skipLibCheck": true, 
+    "sourceMap": true,
+    "declaration": true  // Uncomment this if you want to generate .d.ts files
+  },
+  "include": ["src", "index.ts"], 
+  "exclude": ["node_modules", "dist", "TestCase", "test"]
+}
